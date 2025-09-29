@@ -1,0 +1,12 @@
+@font-face {
+    font-family: 'Montagna LTD';
+    src: url('MontagnaLTD.eot');
+    src: local('Montagna LTD'), local('MontagnaLTD'),
+        url('MontagnaLTD.eot?#iefix') format('embedded-opentype'),
+        url('MontagnaLTD.woff2') format('woff2'),
+        url('MontagnaLTD.woff') format('woff'),
+        url('MontagnaLTD.ttf') format('truetype');
+    font-weight: 500;
+    font-style: normal;
+}
+
