@@ -5,14 +5,19 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Enzo Mateus Gonçalves</title>
 
+    <!-- Link do css -->
     <link rel="stylesheet" href="./style.css">
 
     <!-- Open Sans Font (Google)-->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap" rel="stylesheet">
+
+    <!-- Link do favicon -->
+    <link rel="shortcut icon" href="./imagens/favicon.ico" type="image/x-icon">
 </head>
 <body>
+    <!-- ----------- HEADER ----------- -->
     <header>
         <nav>
             <a href="#about_me">Sobre mim</a>
@@ -22,28 +27,42 @@
         </nav>
     </header>
 
+    <!-- ----------- MAIN ----------- -->
     <main>
+        <!-- ----------- SOBRE MIM ----------- -->
         <section id="about_me">
-            <img src="imagens/profile-picture.png" alt="Foto de perfil" id="about_me_image">
-            
-            <div id="about_me_container">
-                <h2>Sobre mim</h2>
-                <p>Sou apaixonado por tecnologia, como a pogramação me
-                    permite criar sites e aplicativos funcionais, que resolvem
-                    problemas. Cursei Análise e Desenvolvimento de Software em
-                    2022 que durou 1 ano e meio. Realizei cursos online de
-                    programação e desenvolvimento desde 2020. Atualmente estou
-                    cursando Desenvolvimento Web na IOS (Instituto da
-                    Oportunidade Social), uma ONG patrocinada pela maior empresa
-                    de tecnologia do Brasil, a TOTVS. Minha especialidade é criar
-                    sites, aplicativos mobile com Flutter e criar API's no ambiente
-                    Javascript / Typescript.</p>
-            </div>
+            <table>
+                <tbody>
+                    <tr>
+                        <td>
+                            <!-- FOTO DE PERFIL -->
+                            <img src="imagens/profile-picture.png" alt="Foto de perfil" id="about_me_image">
+                        </td>
+                        <td>
+                            <div id="about_me_container">
+                                <h2>Sobre mim</h2>
+                                <p>Sou apaixonado por tecnologia, como a pogramação me
+                                    permite criar sites e aplicativos funcionais, que resolvem
+                                    problemas. Cursei Análise e Desenvolvimento de Software em
+                                    2022 que durou 1 ano e meio. Realizei cursos online de
+                                    programação e desenvolvimento desde 2020. Atualmente estou
+                                    cursando Desenvolvimento Web na IOS (Instituto da
+                                    Oportunidade Social), uma ONG patrocinada pela maior empresa
+                                    de tecnologia do Brasil, a TOTVS. Minha especialidade é criar
+                                    sites, aplicativos mobile com Flutter e criar API's no ambiente
+                                    Javascript / Typescript.</p>
+                                </div>
+                            </td>
+                        </tr>
+                    </tbody>
+            </table>
         </section>
 
-
+        <!-- ----------- PROJETOS ----------- -->
         <section id="projects">
             <h2>Projetos</h2>
+
+            <!-- PROJETO COLAB MOTOR CARS -->
             <article>
                 <img src="imagens/cars-project.png" alt="Imagem da página web do projeto" class="project_image">
                 <div class="project_container">
@@ -60,7 +79,8 @@
             </article>
 
             <hr>    
-
+            
+            <!-- PROJETO IPHONE 17 -->
             <article>
                 <img src="imagens/iphone-project.png" alt="Imagem da página web do projeto" class="project_image">
                 <div class="project_container">
@@ -78,17 +98,22 @@
             </article>
         </section>
 
-
+        <!-- ----------- HABILIDADES ----------- -->
         <section id="tech">
             <h2>Habilidades</h2>
+            <!-- Javascript -->
             <div class="tech_container">
                 <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/javascript/javascript-original.svg" alt="Logo do Javascript" class="tech_image">
                 <p class="tech_name">Javascript</p>
             </div>
+
+            <!-- CSS3 -->
             <div class="tech_container">
                 <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/css3/css3-original.svg" alt="Logo do CSS3" class="tech_image">
                 <p class="tech_name">CSS3</p>
             </div>
+
+            <!-- HTML5 -->
             <div class="tech_container">
                 <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/html5/html5-original.svg
                 " alt="Logo do HTML5" class="tech_image">
@@ -96,20 +121,30 @@
             </div>
         </section>
 
-
+        <!-- ----------- CONTATO ----------- -->
         <section id="contact">
             <h2 id="contact_section_title">Contato</h2>
+            <!-- Link do Linkedin -->
             <a href="https://linkedin.com/in/enzomateus" class="contact_link_container" target="_blank">
-                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/linkedin/linkedin-original.svg" alt="Logo do" class="contact_icon">
+                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/linkedin/linkedin-original.svg" alt="Logo do Linkedin" class="contact_icon">
                 <p class="contact_name">Linkedin</p>
             </a>
-            <a href="https://github.com/enzoios" class="contact_link_container" target="_blank">
-                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/github/github-original.svg" alt="Logo do" class="contact_icon">
+
+            <!-- Link do Github -->
+            <a href="https://github.com/enzoios" class="contact_link_container github_icon" target="_blank">
+                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/github/github-original.svg" alt="Logo do Github" class="contact_icon">
                 <p class="contact_name">Github</p>
+            </a>
+
+            <!-- Link do Email -->
+            <a href="mailto:enzomateusgonc@gmail.com" class="contact_link_container" target="_blank">
+                <img src="imagens/email-icon.svg" alt="Logo do Email" class="contact_icon">
+                <p class="contact_name">Email</p>
             </a>
         </section>
     </main>
 
+    <!-- ----------- FOOTER ----------- -->
     <footer>
         <p>© 2025 - Desenvolvido por Enzo Mateus Gonçalves</p>
     </footer>
