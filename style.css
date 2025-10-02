@@ -60,7 +60,7 @@ table {
     margin-inline: auto;
 }
 
-/* Definição do tamanho da imagem de perfil, como também o display inline-block para deixar do lado do texto (sobre mim); margin-right para separá-lo do conteúdo */
+/* Definição do tamanho da imagem de perfil: margin-right para separá-lo do conteúdo */
 img#about_me_image {
     width: 100%;
     max-width: 300px;
@@ -68,7 +68,7 @@ img#about_me_image {
     border-radius: 7px;
 }
 
-/* Display inline-block para deixá-lo do lado da imagem de perfil; max-width para deixar alinhado ao topo;  text-align: left para sobrescrever o text-align da tag seção pai*/
+/* definição do tamanho máximo do conteúdo; text-align: left para sobrescrever o text-align da tag seção pai*/
 #about_me_container {
     height: 300px;
     max-width: 500px;
